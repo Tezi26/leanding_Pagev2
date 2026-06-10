@@ -205,66 +205,41 @@ html {
 }
 
 
-/* ===================== */
-/* TABLET (<= 992px) */
-/* ===================== */
+
 @media (max-width: 992px) {
 
-  /* section lebih rapat */
+ 
   #home, #about, #projects, #contact {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 
-  /* foto besar diperkecil */
   .foto {
     width: 400px;
     right: -50px;
-    opacity: 0.5;
+
   }
 
-  /* floating images dirapihin */
-  .fotoo {
-    width: 120px;
-    left: 50px;
-    top: 150px;
-  }
+  
 
-  .fotoo1 {
-    width: 120px;
-    left: auto;
-    right: 50px;
-    top: 250px;
-  }
-
-  .fotoo2 {
-    display: none; /* biar ga terlalu rame */
-  }
-
-  /* glass card */
+ 
   .glass-card {
     margin-top: 50px;
     padding: 30px !important;
   }
 }
 
-
-/* ===================== */
-/* MOBILE (<= 768px) */
-/* ===================== */
 @media (max-width: 768px) {
 
   body {
     padding-top: 60px;
   }
 
-  /* section lebih compact */
   #home, #about, #projects, #contact {
     padding-top: 60px;
     padding-bottom: 60px;
   }
 
-  /* text lebih kecil dikit */
   h1 {
     font-size: 24px;
   }
@@ -277,28 +252,18 @@ html {
   .foto {
     width: 250px;
     right: -80px;
-    opacity: 0.3;
+    
   }
 
-  /* floating image jadi minimal */
-  .fotoo,
-  .fotoo1,
-  .fotoo2 {
-    display: none;
-  }
-
-  /* project card */
   .project-img {
     height: 140px;
   }
 
-  /* glass card */
   .glass-card {
     margin-top: 30px;
     padding: 20px !important;
   }
 
-  /* footer text */
   .fouter p {
     font-size: 14px;
     top: 80%;
@@ -306,9 +271,6 @@ html {
 }
 
 
-/* ===================== */
-/* SMALL MOBILE (<= 480px) */
-/* ===================== */
 @media (max-width: 480px) {
 
   h1 {
@@ -325,6 +287,32 @@ html {
 
   .foto {
     width: 180px;
-    opacity: 0.2;
+   
   }
+}
+
+@media (max-width: 768px) {
+
+  .fotoo {
+    width: 80px;
+    left: 10px;
+    top: 70px;
+  
+  }
+
+  .fotoo1 {
+    width: 80px;
+    right: 10px;
+    left: auto;
+    top: 200px;
+   
+  }
+
+  .fotoo2 {
+    width: 70px;
+    right: 20px;
+    top: 300px;
+   
+  }
+
 }
