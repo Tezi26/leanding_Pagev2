@@ -203,3 +203,119 @@ html {
     transform:translateY(-15px);
   }
 }
+
+
+
+@media (max-width: 992px) {
+
+ 
+  #home, #about, #projects, #contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+
+
+ 
+  .glass-card {
+    margin-top: 50px;
+    padding: 30px !important;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  body {
+    padding-top: 60px;
+  }
+
+ 
+  #home, #about, #projects, #contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  
+  .foto {
+    width: 250px;
+    right: -80px;
+
+  }
+
+
+ 
+  .project-img {
+    height: 140px;
+  }
+
+ 
+  .glass-card {
+    margin-top: 30px;
+    padding: 20px !important;
+  }
+
+
+  .fouter p {
+    font-size: 14px;
+    top: 80%;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .glass-card {
+    padding: 15px !important;
+  }
+
+  .project-img {
+    height: 120px;
+  }
+
+  .foto {
+    width: 180px;
+   
+  }
+}
+
+@media (max-width: 768px) {
+
+  .fotoo {
+    width: 80px;
+    left: 10px;
+    top: 50px;
+
+  }
+
+  .fotoo1 {
+    width: 80px;
+    right: 10px;
+    left: auto;
+    top: 200px;
+    
+  }
+
+  .fotoo2 {
+    width: 70px;
+    right: 20px;
+    top: 300px;
+  
+  }
+
+}
