@@ -190,7 +190,7 @@ html {
 .fotoo2 {
  width: 150px;
   position: absolute;
-  top: 320px;
+  top: 330px;
   right: 5%; 
   z-index: 2;
   animation: ngambang 5s infinite;
@@ -250,7 +250,7 @@ html {
 
   
   .foto {
-    width: 350px;
+    width: 150px;
     right: -10px;
 
   }
@@ -290,10 +290,7 @@ html {
     height: 120px;
   }
 
-  .foto {
-    width: 180px;
-   
-  }
+  
 }
 
 @media (max-width: 768px) {
@@ -315,7 +312,7 @@ html {
 
   .fotoo2 {
      width: 90px;
-    top: 310px;
+    top: 350px;
     right: 10px; /* kecilin jarak */
     
   
