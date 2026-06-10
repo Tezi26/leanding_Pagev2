@@ -109,6 +109,8 @@ section,
 
 #home {
   padding-top: 120px;
+   position: relative;
+  overflow: hidden;
 }
 
 
@@ -186,12 +188,12 @@ html {
   filter: drop-shadow(0 0 20px rgba(59,167,180,0.4));
 }
 .fotoo2 {
-  width:180px;
-  position:absolute;
-  top:350px;
-  left:1090px;
-  z-index:1;
-  animation:ngambang 5s infinite;
+ width: 150px;
+  position: absolute;
+  top: 320px;
+  right: 5%; 
+  z-index: 2;
+  animation: ngambang 5s infinite;
   filter: drop-shadow(0 0 20px rgba(59,167,180,0.4));
 }
 
@@ -248,8 +250,8 @@ html {
 
   
   .foto {
-    width: 250px;
-    right: -80px;
+    width: 350px;
+    right: -10px;
 
   }
 
@@ -312,9 +314,10 @@ html {
   }
 
   .fotoo2 {
-    width: 70px;
-    right: 20px;
-    top: 300px;
+     width: 90px;
+    top: 310px;
+    right: 10px; /* kecilin jarak */
+    
   
   }
 
